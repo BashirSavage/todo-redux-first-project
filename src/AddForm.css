@@ -1,0 +1,41 @@
+.header {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo {
+  width: 600px;
+  height: 50px;
+  border: 2px solid #000000;
+  margin: 17px auto 20px auto;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+
+button {
+  width: 168px;
+  height: 50px;
+  background: #232222;
+  border-radius: 224px;
+
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+
+  margin: 0 auto;
+  margin-bottom: 33px;
+}
+
+input::placeholder {
+  color: black;
+}
